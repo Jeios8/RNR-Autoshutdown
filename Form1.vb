@@ -21,11 +21,10 @@ Public Class form_Main
         End If
     End Sub
 
-    Private Sub btn_InsertCoin_Click(sender As Object, e As EventArgs) Handles btn_InsertCoin.Click
+    Private Sub btn_InsertCoin_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
         If NO_SIGNAL = True Then
-            NO_SIGNAL = False
-        Else
-            NO_SIGNAL = True
+            MsgBox("Force Shutdown Initiated")
+            'Shell("shutdown /s /f /t 0")
         End If
     End Sub
 
