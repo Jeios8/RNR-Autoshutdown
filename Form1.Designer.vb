@@ -27,9 +27,11 @@ Partial Class form_Main
         timer_Countdown = New Timer(components)
         GroupBox1 = New GroupBox()
         lbl_Timer = New Label()
-        btn_InsertCoin = New Button()
+        btn_ForceShutdown = New Button()
         timer_COMListener = New Timer(components)
-        TextBox1 = New TextBox()
+        lbl_Announcement = New Label()
+        lbl_PCName = New Label()
+        timer_Announcement = New Timer(components)
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -40,7 +42,7 @@ Partial Class form_Main
         ' GroupBox1
         ' 
         resources.ApplyResources(GroupBox1, "GroupBox1")
-        GroupBox1.BackColor = SystemColors.ActiveCaptionText
+        GroupBox1.BackColor = Color.Transparent
         GroupBox1.Controls.Add(lbl_Timer)
         GroupBox1.ForeColor = SystemColors.ActiveCaption
         GroupBox1.Name = "GroupBox1"
@@ -51,37 +53,50 @@ Partial Class form_Main
         resources.ApplyResources(lbl_Timer, "lbl_Timer")
         lbl_Timer.Name = "lbl_Timer"
         ' 
-        ' btn_InsertCoin
+        ' btn_ForceShutdown
         ' 
-        resources.ApplyResources(btn_InsertCoin, "btn_InsertCoin")
-        btn_InsertCoin.Name = "btn_InsertCoin"
-        btn_InsertCoin.UseVisualStyleBackColor = True
+        resources.ApplyResources(btn_ForceShutdown, "btn_ForceShutdown")
+        btn_ForceShutdown.BackColor = Color.SteelBlue
+        btn_ForceShutdown.ForeColor = Color.Black
+        btn_ForceShutdown.Name = "btn_ForceShutdown"
+        btn_ForceShutdown.UseVisualStyleBackColor = False
         ' 
         ' timer_COMListener
         ' 
         ' 
-        ' TextBox1
+        ' lbl_Announcement
         ' 
-        resources.ApplyResources(TextBox1, "TextBox1")
-        TextBox1.BackColor = SystemColors.WindowFrame
-        TextBox1.ForeColor = SystemColors.HighlightText
-        TextBox1.Name = "TextBox1"
+        resources.ApplyResources(lbl_Announcement, "lbl_Announcement")
+        lbl_Announcement.ForeColor = SystemColors.ActiveCaption
+        lbl_Announcement.Name = "lbl_Announcement"
+        ' 
+        ' lbl_PCName
+        ' 
+        resources.ApplyResources(lbl_PCName, "lbl_PCName")
+        lbl_PCName.ForeColor = SystemColors.ActiveCaption
+        lbl_PCName.Name = "lbl_PCName"
+        ' 
+        ' timer_Announcement
+        ' 
+        timer_Announcement.Interval = 250
         ' 
         ' form_Main
         ' 
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
-        Controls.Add(TextBox1)
-        Controls.Add(btn_InsertCoin)
+        BackColor = SystemColors.ActiveCaptionText
+        Controls.Add(lbl_PCName)
+        Controls.Add(lbl_Announcement)
+        Controls.Add(btn_ForceShutdown)
         Controls.Add(GroupBox1)
         FormBorderStyle = FormBorderStyle.FixedSingle
         MaximizeBox = False
         MinimizeBox = False
         Name = "form_Main"
+        Opacity = 0.9R
         ShowInTaskbar = False
         WindowState = FormWindowState.Maximized
         GroupBox1.ResumeLayout(False)
-        GroupBox1.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -89,7 +104,9 @@ Partial Class form_Main
     Friend WithEvents timer_Countdown As Timer
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents lbl_Timer As Label
-    Friend WithEvents btn_InsertCoin As Button
+    Friend WithEvents btn_ForceShutdown As Button
     Friend WithEvents timer_COMListener As Timer
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents lbl_Announcement As Label
+    Friend WithEvents lbl_PCName As Label
+    Friend WithEvents timer_Announcement As Timer
 End Class
