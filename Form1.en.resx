@@ -145,16 +145,19 @@
     <value>MiddleCenter</value>
   </data>
   <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>492, 283</value>
+    <value>732, 343</value>
   </data>
   <data name="GroupBox1.Text" xml:space="preserve">
-    <value>Countdown Timer</value>
+    <value>PC will shutdown in...</value>
   </data>
   <data name="btn_ForceShutdown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
   <data name="btn_ForceShutdown.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 449</value>
   </data>
   <data name="btn_ForceShutdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 39</value>
@@ -166,16 +169,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="lbl_Announcement.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 36pt, style=Bold</value>
+    <value>Segoe UI, 48pt, style=Bold</value>
   </data>
   <data name="lbl_Announcement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 145</value>
+    <value>12, 115</value>
   </data>
   <data name="lbl_Announcement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>680, 135</value>
-  </data>
-  <data name="lbl_Announcement.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>920, 225</value>
   </data>
   <data name="lbl_Announcement.Text" xml:space="preserve">
     <value>INSERT COIN TO CONTINUE</value>
@@ -183,7 +183,25 @@
   <data name="lbl_Announcement.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <data name="lbl_PCName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lbl_PCName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 48pt, style=Bold, Underline</value>
+  </data>
+  <data name="lbl_PCName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 106</value>
+  </data>
+  <data name="lbl_PCName.Text" xml:space="preserve">
+    <value>PC NAME</value>
+  </data>
+  <data name="lbl_PCName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>944, 501</value>
   </data>
 </root>

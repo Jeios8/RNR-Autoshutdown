@@ -31,6 +31,7 @@ Partial Class form_Main
         timer_COMListener = New Timer(components)
         lbl_Announcement = New Label()
         lbl_PCName = New Label()
+        timer_Announcement = New Timer(components)
         GroupBox1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -73,7 +74,11 @@ Partial Class form_Main
         ' 
         resources.ApplyResources(lbl_PCName, "lbl_PCName")
         lbl_PCName.ForeColor = SystemColors.ActiveCaption
-        lbl_PCName.Name = System.Net.Dns.GetHostName
+        lbl_PCName.Name = "lbl_PCName"
+        ' 
+        ' timer_Announcement
+        ' 
+        timer_Announcement.Interval = 250
         ' 
         ' form_Main
         ' 
@@ -103,4 +108,5 @@ Partial Class form_Main
     Friend WithEvents timer_COMListener As Timer
     Friend WithEvents lbl_Announcement As Label
     Friend WithEvents lbl_PCName As Label
+    Friend WithEvents timer_Announcement As Timer
 End Class
