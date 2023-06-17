@@ -1,9 +1,20 @@
 ﻿Public Class form_Main
+    Private WithEvents serialPort As New SerialPort("COM1")
+    Private dsrReady As Boolean
+    Private dtrReady As Boolean
     Private TICKER As TimeSpan
-    Private WAIT_TIME = 120
-    Private NO_SIGNAL = True
+    Private WAIT_TIME = 180
 
     Private Sub Form_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Try
+            ' Open the serial port
+            serialPort.Open()
+        Catch ex As Exception
+            MessageBox.Show("Error: " & ex.Message)
+        End Try
+
+        dsrReady = serialPort.DsrHolding
+        dtrReady = serialPort.DtrEnable
         TICKER = TimeSpan.FromSeconds(WAIT_TIME)
         lbl_PCName.Text = System.Net.Dns.GetHostName
         timer_COMListener.Enabled = True
@@ -15,20 +26,25 @@
 
         If TICKER <= TimeSpan.Zero Then
             timer_Countdown.Enabled = False
-            MsgBox("Countdown timer is over! Initiating shutdown.")
-            'Shell("shutdown /s /f /t 0")
+            timer_COMListener.Enabled = False
+            serialPort.Close()
+            'MsgBox("Countdown timer is over! Initiating shutdown.")
+            Shell("shutdown /s /f /t 0")
         End If
     End Sub
 
     Private Sub btn_InsertCoin_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
-        If NO_SIGNAL = True Then
-            MsgBox("Force Shutdown Initiated")
-            'Shell("shutdown /s /f /t 0")
+        If (dsrReady And dtrReady) = False Then
+            timer_Countdown.Enabled = False
+            timer_COMListener.Enabled = False
+            serialPort.Close()
+            'MsgBox("Force Shutdown Initiated")
+            Shell("shutdown /s /f /t 0")
         End If
     End Sub
 
     Private Sub timer_COMListener_Tick(sender As Object, e As EventArgs) Handles timer_COMListener.Tick
-        If NO_SIGNAL = True Then
+        If (dsrReady And dtrReady) = False Then
             If timer_Countdown.Enabled = False Then
                 TICKER = TimeSpan.FromSeconds(WAIT_TIME)
                 timer_Countdown.Enabled = True
