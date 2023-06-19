@@ -33,7 +33,7 @@
         End If
     End Sub
 
-    Private Sub btn_InsertCoin_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
+    Private Sub btn_ForceShutdown_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
         If (dsrReady And dtrReady) = False Then
             timer_Countdown.Enabled = False
             timer_COMListener.Enabled = False
