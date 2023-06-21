@@ -67,12 +67,14 @@ Partial Class form_Main
         ' lbl_Announcement
         ' 
         resources.ApplyResources(lbl_Announcement, "lbl_Announcement")
+        lbl_Announcement.BackColor = Color.Transparent
         lbl_Announcement.ForeColor = SystemColors.ActiveCaption
         lbl_Announcement.Name = "lbl_Announcement"
         ' 
         ' lbl_PCName
         ' 
         resources.ApplyResources(lbl_PCName, "lbl_PCName")
+        lbl_PCName.BackColor = Color.Transparent
         lbl_PCName.ForeColor = SystemColors.ActiveCaption
         lbl_PCName.Name = "lbl_PCName"
         ' 
@@ -85,15 +87,15 @@ Partial Class form_Main
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ActiveCaptionText
+        BackgroundImage = My.Resources.Resources.bg
         Controls.Add(lbl_PCName)
         Controls.Add(lbl_Announcement)
         Controls.Add(btn_ForceShutdown)
         Controls.Add(GroupBox1)
-        FormBorderStyle = FormBorderStyle.FixedSingle
+        FormBorderStyle = FormBorderStyle.None
         MaximizeBox = False
         MinimizeBox = False
         Name = "form_Main"
-        Opacity = 0.9R
         ShowInTaskbar = False
         WindowState = FormWindowState.Maximized
         GroupBox1.ResumeLayout(False)
