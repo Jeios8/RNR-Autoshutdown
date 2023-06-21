@@ -96,10 +96,7 @@ Partial Class form_Main
         MaximizeBox = False
         MinimizeBox = False
         Name = "form_Main"
-        ShowIcon = False
         ShowInTaskbar = False
-        SizeGripStyle = SizeGripStyle.Hide
-        TopMost = True
         WindowState = FormWindowState.Maximized
         GroupBox1.ResumeLayout(False)
         ResumeLayout(False)
