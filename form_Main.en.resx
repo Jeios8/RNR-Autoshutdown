@@ -132,9 +132,6 @@
   <data name="lbl_Timer.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 39.75pt, style=Bold</value>
   </data>
-  <data name="lbl_Timer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 18</value>
-  </data>
   <data name="lbl_Timer.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 75</value>
   </data>
@@ -145,7 +142,7 @@
     <value>MiddleCenter</value>
   </data>
   <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 343</value>
+    <value>728, 402</value>
   </data>
   <data name="GroupBox1.Text" xml:space="preserve">
     <value>PC will shutdown in...</value>
@@ -157,7 +154,7 @@
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 449</value>
+    <value>728, 508</value>
   </data>
   <data name="btn_ForceShutdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 39</value>
@@ -171,11 +168,8 @@
   <data name="lbl_Announcement.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 48pt, style=Bold</value>
   </data>
-  <data name="lbl_Announcement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 115</value>
-  </data>
   <data name="lbl_Announcement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>920, 225</value>
+    <value>916, 152</value>
   </data>
   <data name="lbl_Announcement.Text" xml:space="preserve">
     <value>INSERT COIN TO CONTINUE</value>
@@ -190,7 +184,7 @@
     <value>Segoe UI, 48pt, style=Bold, Underline</value>
   </data>
   <data name="lbl_PCName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>920, 106</value>
+    <value>916, 106</value>
   </data>
   <data name="lbl_PCName.Text" xml:space="preserve">
     <value>PC NAME</value>
@@ -198,10 +192,40 @@
   <data name="lbl_PCName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <data name="pb_Logo.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pb_Logo.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pb_Logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="pb_Logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="pb_Logo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="lbl_Watermark.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="lbl_Watermark.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 9.75pt, style=Bold, Underline</value>
+  </data>
+  <data name="lbl_Watermark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 536</value>
+  </data>
+  <data name="lbl_Watermark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 15</value>
+  </data>
+  <data name="lbl_Watermark.Text" xml:space="preserve">
+    <value>Registered to RNR Services</value>
+  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>944, 501</value>
+    <value>940, 560</value>
   </data>
 </root>

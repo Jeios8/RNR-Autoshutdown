@@ -1,7 +1,5 @@
 ﻿Public Class form_Main
     Private WithEvents serialPort As New SerialPort("COM1")
-    Private dsrReady As Boolean
-    Private dtrReady As Boolean
     Private TICKER As TimeSpan
     Private WAIT_TIME = 180
 
@@ -21,13 +19,13 @@
 
     Private Sub btn_ForceShutdown_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
         ' Check if the DSR and DTR signals are ready
-        If (dsrReady And dtrReady) = False Then
+        If serialPort.DsrHolding = False Then
             ' Disable timers and close the serial port
             timer_Countdown.Enabled = False
             timer_COMListener.Enabled = False
             serialPort.Close()
 
-            Console.WriteLine("Initiating shutdown...")
+            Console.WriteLine("Force Shutdown Initiated")
             Shell("shutdown /s /f /t 0") ' Execute system shutdown command
         End If
     End Sub
@@ -42,17 +40,14 @@
             timer_COMListener.Enabled = False
             serialPort.Close()
 
-            Console.WriteLine("Timer expired! Initiating shutdown...")
+            Console.WriteLine("Timer expired! Shutdown Initiated")
             Shell("shutdown /s /f /t 0") ' Execute system shutdown command
         End If
     End Sub
 
     Private Sub timer_COMListener_Tick(sender As Object, e As EventArgs) Handles timer_COMListener.Tick
         ' Check the serial port signal
-        dsrReady = serialPort.DsrHolding
-
-        ' Check if the DSR and DTR signals are not ready
-        If dsrReady = False Then
+        If serialPort.DsrHolding = False Then
             ' Check if the countdown timer is already disabled
             If timer_Countdown.Enabled = False Then
                 TICKER = TimeSpan.FromSeconds(WAIT_TIME)

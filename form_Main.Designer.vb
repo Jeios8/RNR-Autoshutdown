@@ -32,7 +32,10 @@ Partial Class form_Main
         lbl_Announcement = New Label()
         lbl_PCName = New Label()
         timer_Announcement = New Timer(components)
+        pb_Logo = New PictureBox()
+        lbl_Watermark = New Label()
         GroupBox1.SuspendLayout()
+        CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' timer_Countdown
@@ -82,12 +85,28 @@ Partial Class form_Main
         ' 
         timer_Announcement.Interval = 250
         ' 
+        ' pb_Logo
+        ' 
+        resources.ApplyResources(pb_Logo, "pb_Logo")
+        pb_Logo.BackColor = Color.Transparent
+        pb_Logo.Image = My.Resources.Resources.logo
+        pb_Logo.Name = "pb_Logo"
+        pb_Logo.TabStop = False
+        ' 
+        ' lbl_Watermark
+        ' 
+        resources.ApplyResources(lbl_Watermark, "lbl_Watermark")
+        lbl_Watermark.BackColor = Color.Transparent
+        lbl_Watermark.ForeColor = SystemColors.ActiveCaption
+        lbl_Watermark.Name = "lbl_Watermark"
+        ' 
         ' form_Main
         ' 
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = SystemColors.ActiveCaptionText
         BackgroundImage = My.Resources.Resources.bg
+        Controls.Add(lbl_Watermark)
+        Controls.Add(pb_Logo)
         Controls.Add(lbl_PCName)
         Controls.Add(lbl_Announcement)
         Controls.Add(btn_ForceShutdown)
@@ -97,8 +116,10 @@ Partial Class form_Main
         MinimizeBox = False
         Name = "form_Main"
         ShowInTaskbar = False
+        TopMost = True
         WindowState = FormWindowState.Maximized
         GroupBox1.ResumeLayout(False)
+        CType(pb_Logo, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -111,4 +132,6 @@ Partial Class form_Main
     Friend WithEvents lbl_Announcement As Label
     Friend WithEvents lbl_PCName As Label
     Friend WithEvents timer_Announcement As Timer
+    Friend WithEvents pb_Logo As PictureBox
+    Friend WithEvents lbl_Watermark As Label
 End Class
