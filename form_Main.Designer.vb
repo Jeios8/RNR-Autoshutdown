@@ -34,6 +34,7 @@ Partial Class form_Main
         timer_Announcement = New Timer(components)
         pb_Logo = New PictureBox()
         lbl_Watermark = New Label()
+        btn_Login = New Button()
         GroupBox1.SuspendLayout()
         CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -100,11 +101,20 @@ Partial Class form_Main
         lbl_Watermark.ForeColor = SystemColors.ActiveCaption
         lbl_Watermark.Name = "lbl_Watermark"
         ' 
+        ' btn_Login
+        ' 
+        resources.ApplyResources(btn_Login, "btn_Login")
+        btn_Login.BackColor = Color.SteelBlue
+        btn_Login.Name = "btn_Login"
+        btn_Login.UseVisualStyleBackColor = False
+        ' 
         ' form_Main
         ' 
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.bg
+        ControlBox = False
+        Controls.Add(btn_Login)
         Controls.Add(lbl_Watermark)
         Controls.Add(pb_Logo)
         Controls.Add(lbl_PCName)
@@ -116,7 +126,6 @@ Partial Class form_Main
         MinimizeBox = False
         Name = "form_Main"
         ShowInTaskbar = False
-        TopMost = True
         WindowState = FormWindowState.Maximized
         GroupBox1.ResumeLayout(False)
         CType(pb_Logo, ComponentModel.ISupportInitialize).EndInit()
@@ -134,4 +143,5 @@ Partial Class form_Main
     Friend WithEvents timer_Announcement As Timer
     Friend WithEvents pb_Logo As PictureBox
     Friend WithEvents lbl_Watermark As Label
+    Friend WithEvents btn_Login As Button
 End Class

@@ -183,6 +183,9 @@
   <data name="lbl_PCName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 48pt, style=Bold, Underline</value>
   </data>
+  <data name="lbl_PCName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
   <data name="lbl_PCName.Size" type="System.Drawing.Size, System.Drawing">
     <value>916, 106</value>
   </data>
@@ -222,10 +225,28 @@
   <data name="lbl_Watermark.Text" xml:space="preserve">
     <value>Registered to RNR Services</value>
   </data>
+  <data name="btn_Login.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_Login.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_Login.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btn_Login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="btn_Login.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>940, 560</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
 </root>
