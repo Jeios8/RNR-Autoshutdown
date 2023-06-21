@@ -87,7 +87,7 @@ Partial Class form_Main
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ActiveCaptionText
-        ControlBox = False
+        BackgroundImage = My.Resources.Resources.bg
         Controls.Add(lbl_PCName)
         Controls.Add(lbl_Announcement)
         Controls.Add(btn_ForceShutdown)

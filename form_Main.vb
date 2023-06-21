@@ -6,27 +6,12 @@
     Private WAIT_TIME = 180
 
     Private Sub Form_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim C As Control
-
-        For Each C In Me.Controls
-            If TypeOf C Is MdiClient Then
-                C.BackColor = Color.Black
-                Exit For
-            End If
-        Next
-
-        C = Nothing
-
         Try
             ' Open the serial port
             serialPort.Open()
         Catch ex As Exception
             MessageBox.Show("Error: " & ex.Message)
         End Try
-
-        ' Check the serial port signal
-        dsrReady = serialPort.DsrHolding
-        dtrReady = serialPort.DtrEnable
 
         ' Launch the serial port listener
         TICKER = TimeSpan.FromSeconds(WAIT_TIME)
@@ -63,8 +48,11 @@
     End Sub
 
     Private Sub timer_COMListener_Tick(sender As Object, e As EventArgs) Handles timer_COMListener.Tick
+        ' Check the serial port signal
+        dsrReady = serialPort.DsrHolding
+
         ' Check if the DSR and DTR signals are not ready
-        If (dsrReady And dtrReady) = False Then
+        If dsrReady = False Then
             ' Check if the countdown timer is already disabled
             If timer_Countdown.Enabled = False Then
                 TICKER = TimeSpan.FromSeconds(WAIT_TIME)
