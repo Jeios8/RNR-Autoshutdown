@@ -141,8 +141,11 @@
   <data name="lbl_Timer.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
+  <data name="GroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
   <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>728, 402</value>
+    <value>728, 403</value>
   </data>
   <data name="GroupBox1.Text" xml:space="preserve">
     <value>PC will shutdown in...</value>
@@ -154,10 +157,13 @@
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>728, 508</value>
+    <value>728, 509</value>
   </data>
   <data name="btn_ForceShutdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 39</value>
+  </data>
+  <data name="btn_ForceShutdown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="btn_ForceShutdown.Text" xml:space="preserve">
     <value>FORCE SHUTDOWN</value>
@@ -217,7 +223,7 @@
     <value>SimSun, 9.75pt, style=Bold, Underline</value>
   </data>
   <data name="lbl_Watermark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 536</value>
+    <value>12, 533</value>
   </data>
   <data name="lbl_Watermark.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 15</value>
@@ -225,20 +231,113 @@
   <data name="lbl_Watermark.Text" xml:space="preserve">
     <value>Registered to RNR Services</value>
   </data>
-  <data name="btn_Login.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="gp_UserLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btn_Register.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="btn_Login.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btn_Register.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="btn_Login.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btn_Register.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt, style=Bold</value>
   </data>
-  <data name="btn_Login.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
+  <data name="btn_Register.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="btn_Login.Text" xml:space="preserve">
+  <data name="btn_Register.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 25</value>
+  </data>
+  <data name="btn_Register.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="txt_Password.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_Password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="btn_LoginMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_LoginMenu.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_LoginMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btn_LoginMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_LoginMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 92</value>
+  </data>
+  <data name="btn_LoginMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 25</value>
+  </data>
+  <data name="btn_LoginMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_LoginMenu.Text" xml:space="preserve">
     <value>Login</value>
+  </data>
+  <data name="txt_Username.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_Username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="lbl_Password.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Password.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lbl_Password.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="lbl_Password.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lbl_Username.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_Username.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lbl_Username.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 17</value>
+  </data>
+  <data name="lbl_Username.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="gp_UserLogin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="gp_UserLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 388</value>
+  </data>
+  <data name="gp_UserLogin.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 160</value>
+  </data>
+  <data name="gp_UserLogin.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 160</value>
+  </data>
+  <data name="gp_UserLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 160</value>
+  </data>
+  <data name="gp_UserLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gp_UserLogin.Text" xml:space="preserve">
+    <value>User Login</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>

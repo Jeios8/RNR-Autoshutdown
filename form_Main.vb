@@ -2,12 +2,13 @@
     Private WithEvents serialPort As New SerialPort
     Private TICKER As TimeSpan
     Private WAIT_TIME = 180
+    Public SUDO_USER = False
 
     Private Sub Form_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ports As Array
         ports = SerialPort.GetPortNames
 
-        serialPort.PortName = ports(0) ' Set value to the first detected port
+        serialPort.PortName = ports(1) ' Set value to the first detected port
         serialPort.BaudRate = 9600
         serialPort.ReadTimeout = 2000
         serialPort.DtrEnable = True
@@ -62,16 +63,20 @@
                 TICKER = TimeSpan.FromSeconds(WAIT_TIME)
                 timer_Countdown.Enabled = True
                 timer_Announcement.Enabled = True
-                Me.Show()
+                If Me.Visible = False Then
+                    Me.Show()
+                End If
                 Me.TopMost = True
             End If
-        Else ' DSR and DTR signals are ready
+        ElseIf serialPort.DsrHolding = True Then ' DSR and DTR signals are ready
             ' Check if the countdown timer is already enabled
             If timer_Countdown.Enabled = True Then
                 timer_Countdown.Enabled = False
                 timer_Announcement.Enabled = False
                 Me.TopMost = False
-                Me.Hide()
+                If Me.Visible = True Then
+                    Me.Hide()
+                End If
             End If
         End If
     End Sub
@@ -83,7 +88,7 @@
         lbl_Announcement.ForeColor = Color.FromArgb(rand.Next(0, 256), rand.Next(0, 256), rand.Next(0, 256))
     End Sub
 
-    Private Sub btn_Login_Click(sender As Object, e As EventArgs) Handles btn_Login.Click
-        MsgBox("Feature is still work in progress.")
+    Private Sub btn_Login_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
