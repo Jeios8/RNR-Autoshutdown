@@ -34,9 +34,16 @@ Partial Class form_Main
         timer_Announcement = New Timer(components)
         pb_Logo = New PictureBox()
         lbl_Watermark = New Label()
-        btn_Login = New Button()
+        gp_UserLogin = New GroupBox()
+        btn_Register = New Button()
+        txt_Password = New TextBox()
+        btn_LoginMenu = New Button()
+        txt_Username = New TextBox()
+        lbl_Password = New Label()
+        lbl_Username = New Label()
         GroupBox1.SuspendLayout()
         CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
+        gp_UserLogin.SuspendLayout()
         SuspendLayout()
         ' 
         ' timer_Countdown
@@ -101,12 +108,55 @@ Partial Class form_Main
         lbl_Watermark.ForeColor = SystemColors.ActiveCaption
         lbl_Watermark.Name = "lbl_Watermark"
         ' 
-        ' btn_Login
+        ' gp_UserLogin
         ' 
-        resources.ApplyResources(btn_Login, "btn_Login")
-        btn_Login.BackColor = Color.SteelBlue
-        btn_Login.Name = "btn_Login"
-        btn_Login.UseVisualStyleBackColor = False
+        resources.ApplyResources(gp_UserLogin, "gp_UserLogin")
+        gp_UserLogin.BackColor = Color.Transparent
+        gp_UserLogin.Controls.Add(btn_Register)
+        gp_UserLogin.Controls.Add(txt_Password)
+        gp_UserLogin.Controls.Add(btn_LoginMenu)
+        gp_UserLogin.Controls.Add(txt_Username)
+        gp_UserLogin.Controls.Add(lbl_Password)
+        gp_UserLogin.Controls.Add(lbl_Username)
+        gp_UserLogin.ForeColor = SystemColors.ActiveCaption
+        gp_UserLogin.Name = "gp_UserLogin"
+        gp_UserLogin.TabStop = False
+        ' 
+        ' btn_Register
+        ' 
+        resources.ApplyResources(btn_Register, "btn_Register")
+        btn_Register.BackColor = Color.ForestGreen
+        btn_Register.ForeColor = SystemColors.Control
+        btn_Register.Name = "btn_Register"
+        btn_Register.UseVisualStyleBackColor = False
+        ' 
+        ' txt_Password
+        ' 
+        resources.ApplyResources(txt_Password, "txt_Password")
+        txt_Password.Name = "txt_Password"
+        ' 
+        ' btn_LoginMenu
+        ' 
+        resources.ApplyResources(btn_LoginMenu, "btn_LoginMenu")
+        btn_LoginMenu.BackColor = Color.SteelBlue
+        btn_LoginMenu.ForeColor = SystemColors.Control
+        btn_LoginMenu.Name = "btn_LoginMenu"
+        btn_LoginMenu.UseVisualStyleBackColor = False
+        ' 
+        ' txt_Username
+        ' 
+        resources.ApplyResources(txt_Username, "txt_Username")
+        txt_Username.Name = "txt_Username"
+        ' 
+        ' lbl_Password
+        ' 
+        resources.ApplyResources(lbl_Password, "lbl_Password")
+        lbl_Password.Name = "lbl_Password"
+        ' 
+        ' lbl_Username
+        ' 
+        resources.ApplyResources(lbl_Username, "lbl_Username")
+        lbl_Username.Name = "lbl_Username"
         ' 
         ' form_Main
         ' 
@@ -114,21 +164,24 @@ Partial Class form_Main
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.bg
         ControlBox = False
-        Controls.Add(btn_Login)
         Controls.Add(lbl_Watermark)
+        Controls.Add(gp_UserLogin)
+        Controls.Add(btn_ForceShutdown)
+        Controls.Add(GroupBox1)
         Controls.Add(pb_Logo)
         Controls.Add(lbl_PCName)
         Controls.Add(lbl_Announcement)
-        Controls.Add(btn_ForceShutdown)
-        Controls.Add(GroupBox1)
         FormBorderStyle = FormBorderStyle.None
         MaximizeBox = False
         MinimizeBox = False
         Name = "form_Main"
+        ShowIcon = False
         ShowInTaskbar = False
         WindowState = FormWindowState.Maximized
         GroupBox1.ResumeLayout(False)
         CType(pb_Logo, ComponentModel.ISupportInitialize).EndInit()
+        gp_UserLogin.ResumeLayout(False)
+        gp_UserLogin.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -143,5 +196,11 @@ Partial Class form_Main
     Friend WithEvents timer_Announcement As Timer
     Friend WithEvents pb_Logo As PictureBox
     Friend WithEvents lbl_Watermark As Label
-    Friend WithEvents btn_Login As Button
+    Friend WithEvents gp_UserLogin As GroupBox
+    Friend WithEvents btn_Register As Button
+    Friend WithEvents txt_Password As TextBox
+    Friend WithEvents btn_LoginMenu As Button
+    Friend WithEvents txt_Username As TextBox
+    Friend WithEvents lbl_Password As Label
+    Friend WithEvents lbl_Username As Label
 End Class
