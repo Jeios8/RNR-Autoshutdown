@@ -25,7 +25,7 @@ Partial Class form_Main
         components = New ComponentModel.Container()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(form_Main))
         timer_Countdown = New Timer(components)
-        GroupBox1 = New GroupBox()
+        gb_CountdownTimer = New GroupBox()
         lbl_Timer = New Label()
         btn_ForceShutdown = New Button()
         timer_COMListener = New Timer(components)
@@ -34,30 +34,37 @@ Partial Class form_Main
         timer_Announcement = New Timer(components)
         pb_Logo = New PictureBox()
         lbl_Watermark = New Label()
-        gp_UserLogin = New GroupBox()
+        gb_UserLogin = New GroupBox()
+        btn_CancelLogin = New Button()
         btn_Register = New Button()
         txt_Password = New TextBox()
-        btn_LoginMenu = New Button()
+        btn_Login = New Button()
         txt_Username = New TextBox()
         lbl_Password = New Label()
         lbl_Username = New Label()
-        GroupBox1.SuspendLayout()
+        btn_LoginForm = New Button()
+        gb_UserInfo = New GroupBox()
+        lbl_Points = New Label()
+        lbl_Type = New Label()
+        lbl_Name = New Label()
+        gb_CountdownTimer.SuspendLayout()
         CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
-        gp_UserLogin.SuspendLayout()
+        gb_UserLogin.SuspendLayout()
+        gb_UserInfo.SuspendLayout()
         SuspendLayout()
         ' 
         ' timer_Countdown
         ' 
         timer_Countdown.Interval = 1000
         ' 
-        ' GroupBox1
+        ' gb_CountdownTimer
         ' 
-        resources.ApplyResources(GroupBox1, "GroupBox1")
-        GroupBox1.BackColor = Color.Transparent
-        GroupBox1.Controls.Add(lbl_Timer)
-        GroupBox1.ForeColor = SystemColors.ActiveCaption
-        GroupBox1.Name = "GroupBox1"
-        GroupBox1.TabStop = False
+        resources.ApplyResources(gb_CountdownTimer, "gb_CountdownTimer")
+        gb_CountdownTimer.BackColor = Color.Transparent
+        gb_CountdownTimer.Controls.Add(lbl_Timer)
+        gb_CountdownTimer.ForeColor = SystemColors.ActiveCaption
+        gb_CountdownTimer.Name = "gb_CountdownTimer"
+        gb_CountdownTimer.TabStop = False
         ' 
         ' lbl_Timer
         ' 
@@ -68,7 +75,7 @@ Partial Class form_Main
         ' 
         resources.ApplyResources(btn_ForceShutdown, "btn_ForceShutdown")
         btn_ForceShutdown.BackColor = Color.SteelBlue
-        btn_ForceShutdown.ForeColor = Color.Black
+        btn_ForceShutdown.ForeColor = SystemColors.Control
         btn_ForceShutdown.Name = "btn_ForceShutdown"
         btn_ForceShutdown.UseVisualStyleBackColor = False
         ' 
@@ -108,19 +115,28 @@ Partial Class form_Main
         lbl_Watermark.ForeColor = SystemColors.ActiveCaption
         lbl_Watermark.Name = "lbl_Watermark"
         ' 
-        ' gp_UserLogin
+        ' gb_UserLogin
         ' 
-        resources.ApplyResources(gp_UserLogin, "gp_UserLogin")
-        gp_UserLogin.BackColor = Color.Transparent
-        gp_UserLogin.Controls.Add(btn_Register)
-        gp_UserLogin.Controls.Add(txt_Password)
-        gp_UserLogin.Controls.Add(btn_LoginMenu)
-        gp_UserLogin.Controls.Add(txt_Username)
-        gp_UserLogin.Controls.Add(lbl_Password)
-        gp_UserLogin.Controls.Add(lbl_Username)
-        gp_UserLogin.ForeColor = SystemColors.ActiveCaption
-        gp_UserLogin.Name = "gp_UserLogin"
-        gp_UserLogin.TabStop = False
+        resources.ApplyResources(gb_UserLogin, "gb_UserLogin")
+        gb_UserLogin.BackColor = Color.Transparent
+        gb_UserLogin.Controls.Add(btn_CancelLogin)
+        gb_UserLogin.Controls.Add(btn_Register)
+        gb_UserLogin.Controls.Add(txt_Password)
+        gb_UserLogin.Controls.Add(btn_Login)
+        gb_UserLogin.Controls.Add(txt_Username)
+        gb_UserLogin.Controls.Add(lbl_Password)
+        gb_UserLogin.Controls.Add(lbl_Username)
+        gb_UserLogin.ForeColor = SystemColors.ActiveCaption
+        gb_UserLogin.Name = "gb_UserLogin"
+        gb_UserLogin.TabStop = False
+        ' 
+        ' btn_CancelLogin
+        ' 
+        resources.ApplyResources(btn_CancelLogin, "btn_CancelLogin")
+        btn_CancelLogin.BackColor = Color.Firebrick
+        btn_CancelLogin.ForeColor = SystemColors.Control
+        btn_CancelLogin.Name = "btn_CancelLogin"
+        btn_CancelLogin.UseVisualStyleBackColor = False
         ' 
         ' btn_Register
         ' 
@@ -135,13 +151,13 @@ Partial Class form_Main
         resources.ApplyResources(txt_Password, "txt_Password")
         txt_Password.Name = "txt_Password"
         ' 
-        ' btn_LoginMenu
+        ' btn_Login
         ' 
-        resources.ApplyResources(btn_LoginMenu, "btn_LoginMenu")
-        btn_LoginMenu.BackColor = Color.SteelBlue
-        btn_LoginMenu.ForeColor = SystemColors.Control
-        btn_LoginMenu.Name = "btn_LoginMenu"
-        btn_LoginMenu.UseVisualStyleBackColor = False
+        resources.ApplyResources(btn_Login, "btn_Login")
+        btn_Login.BackColor = Color.SteelBlue
+        btn_Login.ForeColor = SystemColors.Control
+        btn_Login.Name = "btn_Login"
+        btn_Login.UseVisualStyleBackColor = False
         ' 
         ' txt_Username
         ' 
@@ -158,16 +174,54 @@ Partial Class form_Main
         resources.ApplyResources(lbl_Username, "lbl_Username")
         lbl_Username.Name = "lbl_Username"
         ' 
+        ' btn_LoginForm
+        ' 
+        resources.ApplyResources(btn_LoginForm, "btn_LoginForm")
+        btn_LoginForm.BackColor = Color.SteelBlue
+        btn_LoginForm.ForeColor = SystemColors.Control
+        btn_LoginForm.Name = "btn_LoginForm"
+        btn_LoginForm.UseVisualStyleBackColor = False
+        ' 
+        ' gb_UserInfo
+        ' 
+        resources.ApplyResources(gb_UserInfo, "gb_UserInfo")
+        gb_UserInfo.BackColor = Color.Transparent
+        gb_UserInfo.Controls.Add(lbl_Points)
+        gb_UserInfo.Controls.Add(lbl_Type)
+        gb_UserInfo.Controls.Add(lbl_Name)
+        gb_UserInfo.ForeColor = SystemColors.ActiveCaption
+        gb_UserInfo.Name = "gb_UserInfo"
+        gb_UserInfo.TabStop = False
+        ' 
+        ' lbl_Points
+        ' 
+        resources.ApplyResources(lbl_Points, "lbl_Points")
+        lbl_Points.Name = "lbl_Points"
+        ' 
+        ' lbl_Type
+        ' 
+        resources.ApplyResources(lbl_Type, "lbl_Type")
+        lbl_Type.Name = "lbl_Type"
+        ' 
+        ' lbl_Name
+        ' 
+        resources.ApplyResources(lbl_Name, "lbl_Name")
+        lbl_Name.Name = "lbl_Name"
+        ' 
         ' form_Main
         ' 
+        AcceptButton = btn_Login
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.bg
+        CancelButton = btn_CancelLogin
         ControlBox = False
+        Controls.Add(gb_UserInfo)
+        Controls.Add(btn_LoginForm)
         Controls.Add(lbl_Watermark)
-        Controls.Add(gp_UserLogin)
+        Controls.Add(gb_UserLogin)
         Controls.Add(btn_ForceShutdown)
-        Controls.Add(GroupBox1)
+        Controls.Add(gb_CountdownTimer)
         Controls.Add(pb_Logo)
         Controls.Add(lbl_PCName)
         Controls.Add(lbl_Announcement)
@@ -178,16 +232,18 @@ Partial Class form_Main
         ShowIcon = False
         ShowInTaskbar = False
         WindowState = FormWindowState.Maximized
-        GroupBox1.ResumeLayout(False)
+        gb_CountdownTimer.ResumeLayout(False)
         CType(pb_Logo, ComponentModel.ISupportInitialize).EndInit()
-        gp_UserLogin.ResumeLayout(False)
-        gp_UserLogin.PerformLayout()
+        gb_UserLogin.ResumeLayout(False)
+        gb_UserLogin.PerformLayout()
+        gb_UserInfo.ResumeLayout(False)
+        gb_UserInfo.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents timer_Countdown As Timer
-    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents gb_CountdownTimer As GroupBox
     Friend WithEvents lbl_Timer As Label
     Friend WithEvents btn_ForceShutdown As Button
     Friend WithEvents timer_COMListener As Timer
@@ -196,11 +252,17 @@ Partial Class form_Main
     Friend WithEvents timer_Announcement As Timer
     Friend WithEvents pb_Logo As PictureBox
     Friend WithEvents lbl_Watermark As Label
-    Friend WithEvents gp_UserLogin As GroupBox
+    Friend WithEvents gb_UserLogin As GroupBox
     Friend WithEvents btn_Register As Button
     Friend WithEvents txt_Password As TextBox
-    Friend WithEvents btn_LoginMenu As Button
+    Friend WithEvents btn_Login As Button
     Friend WithEvents txt_Username As TextBox
     Friend WithEvents lbl_Password As Label
     Friend WithEvents lbl_Username As Label
+    Friend WithEvents btn_CancelLogin As Button
+    Friend WithEvents btn_LoginForm As Button
+    Friend WithEvents gb_UserInfo As GroupBox
+    Friend WithEvents lbl_Points As Label
+    Friend WithEvents lbl_Type As Label
+    Friend WithEvents lbl_Name As Label
 End Class
