@@ -1,8 +1,15 @@
-﻿Public Class form_Main
+﻿Imports Google.Apis.Auth.OAuth2
+Imports Google.Apis.Auth
+Imports Google.Apis.Services
+Imports Google.Apis.Sheets.v4
+Imports System.IO
+
+Public Class form_Main
     Private WithEvents serialPort As New SerialPort
     Private TICKER As TimeSpan
     Private WAIT_TIME = 180
-    Public SUDO_USER = False
+    Private SUPER_USER = False
+    Private LOGGED_IN = False
 
     Private Sub Form_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ports As Array
@@ -24,7 +31,12 @@
         ' Launch the serial port listener
         TICKER = TimeSpan.FromSeconds(WAIT_TIME)
         lbl_PCName.Text = System.Net.Dns.GetHostName
+
+        gb_UserLogin.Hide()
+        gb_UserInfo.Hide()
+
         timer_COMListener.Enabled = True
+
     End Sub
 
     Private Sub btn_ForceShutdown_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
@@ -88,7 +100,33 @@
         lbl_Announcement.ForeColor = Color.FromArgb(rand.Next(0, 256), rand.Next(0, 256), rand.Next(0, 256))
     End Sub
 
-    Private Sub btn_Login_Click(sender As Object, e As EventArgs)
+    Private Sub btn_LoginForm_Click(sender As Object, e As EventArgs) Handles btn_LoginForm.Click
+        If LOGGED_IN = False Then
+            gb_UserLogin.Show()
+        End If
+    End Sub
 
+    Private Sub btn_Login_Click(sender As Object, e As EventArgs) Handles btn_Login.Click
+        MsgBox("test")
+    End Sub
+
+    Private Sub btn_Register_Click(sender As Object, e As EventArgs) Handles btn_Register.Click
+        MsgBox("Register Feature is still work in progress.")
+    End Sub
+
+    Private Sub btn_CancelLogin_Click(sender As Object, e As EventArgs) Handles btn_CancelLogin.Click
+        gb_UserLogin.Hide()
+        btn_LoginForm.Show()
+    End Sub
+
+    Private Sub gp_UserLogin_Visible(sender As Object, e As EventArgs) Handles gb_UserLogin.VisibleChanged
+        If gb_UserLogin.Visible = True Then
+            txt_Username.Text = ""
+            txt_Password.Text = ""
+            txt_Username.Select()
+            btn_LoginForm.Hide()
+        Else
+            btn_LoginForm.Show()
+        End If
     End Sub
 End Class
