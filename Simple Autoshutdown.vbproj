@@ -7,7 +7,7 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
-    <ImportedNamespaces>Google.Apis.Auth=False,Google.Apis.Auth.OAuth2=False,Google.Apis.Services=False,Google.Apis.Sheets.v4=False,System.Data=False,System.Data.OleDb=False,System.Drawing=False,System.IO=False,System.IO.Ports=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,Simple Autoshutdown=True</ImportedNamespaces>
+    <ImportedNamespaces>System.Data=False,System.Data.OleDb=False,System.Drawing=False,System.IO=False,System.IO.Ports=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,Simple Autoshutdown=True</ImportedNamespaces>
     <ApplicationIcon>fangs.ico</ApplicationIcon>
   </PropertyGroup>
 
@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Import Include="Google.Apis.Auth" />
-    <Import Include="Google.Apis.Auth.OAuth2" />
-    <Import Include="Google.Apis.Services" />
-    <Import Include="Google.Apis.Sheets.v4" />
     <Import Include="System.Data" />
     <Import Include="System.Data.OleDb" />
     <Import Include="System.Drawing" />
