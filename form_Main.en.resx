@@ -234,6 +234,21 @@
   <data name="gb_UserLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
   </data>
+  <data name="gb_UserLogin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="gb_UserLogin.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 190</value>
+  </data>
+  <data name="gb_UserLogin.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>240, 190</value>
+  </data>
+  <data name="gb_UserLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 190</value>
+  </data>
+  <data name="gb_UserLogin.Text" xml:space="preserve">
+    <value>User Login</value>
+  </data>
   <data name="btn_CancelLogin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -339,21 +354,6 @@
   <data name="lbl_Username.Text" xml:space="preserve">
     <value>Username:</value>
   </data>
-  <data name="gb_UserLogin.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="gb_UserLogin.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>240, 190</value>
-  </data>
-  <data name="gb_UserLogin.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>240, 190</value>
-  </data>
-  <data name="gb_UserLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 190</value>
-  </data>
-  <data name="gb_UserLogin.Text" xml:space="preserve">
-    <value>User Login</value>
-  </data>
   <data name="btn_LoginForm.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -371,6 +371,33 @@
   </data>
   <data name="gb_UserInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
+  </data>
+  <data name="gb_UserInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 358</value>
+  </data>
+  <data name="gb_UserInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 172</value>
+  </data>
+  <data name="gb_UserInfo.Text" xml:space="preserve">
+    <value>User Info</value>
+  </data>
+  <data name="btn_Logout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_Logout.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_Logout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btn_Logout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Logout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 27</value>
+  </data>
+  <data name="btn_Logout.Text" xml:space="preserve">
+    <value>Logout</value>
   </data>
   <data name="lbl_Points.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -399,14 +426,158 @@
   <data name="lbl_Name.Text" xml:space="preserve">
     <value>Name:</value>
   </data>
-  <data name="gb_UserInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 358</value>
+  <data name="gb_RegistrationForm.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
-  <data name="gb_UserInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 172</value>
+  <data name="lbl_Password1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
   </data>
-  <data name="gb_UserInfo.Text" xml:space="preserve">
-    <value>User Info</value>
+  <data name="lbl_Password1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Password1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lbl_Password1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 25</value>
+  </data>
+  <data name="lbl_Password1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_Password1.Text" xml:space="preserve">
+    <value>Create Password:</value>
+  </data>
+  <data name="txt_Password2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 86</value>
+  </data>
+  <data name="txt_Password2.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_Password2.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txt_Password2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="txt_Password2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_Password2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lbl_Password2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Password2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 89</value>
+  </data>
+  <data name="lbl_Password2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 28</value>
+  </data>
+  <data name="lbl_Password2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_Password2.Text" xml:space="preserve">
+    <value>Confirm Password:</value>
+  </data>
+  <data name="btn_CancelRegistration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_CancelRegistration.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_CancelRegistration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btn_CancelRegistration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_CancelRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 148</value>
+  </data>
+  <data name="btn_CancelRegistration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 25</value>
+  </data>
+  <data name="btn_CancelRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_CancelRegistration.Text" xml:space="preserve">
+    <value>Cancel Registration</value>
+  </data>
+  <data name="btn_Submit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_Submit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btn_Submit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btn_Submit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Submit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 117</value>
+  </data>
+  <data name="btn_Submit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 25</value>
+  </data>
+  <data name="btn_Submit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="txt_Password1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="txt_Password1.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_Password1.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txt_Password1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="txt_Password1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txt_RegUername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 24</value>
+  </data>
+  <data name="txt_RegUername.MaxLength" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="txt_RegUername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 25</value>
+  </data>
+  <data name="lbl_RegUsername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="lbl_RegUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_RegUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 22</value>
+  </data>
+  <data name="lbl_RegUsername.Text" xml:space="preserve">
+    <value>Enter Username:</value>
+  </data>
+  <data name="gb_RegistrationForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="gb_RegistrationForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 360</value>
+  </data>
+  <data name="gb_RegistrationForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 185</value>
+  </data>
+  <data name="gb_RegistrationForm.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="gb_RegistrationForm.Text" xml:space="preserve">
+    <value>Registration Form</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>

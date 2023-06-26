@@ -1,10 +1,4 @@
-﻿Imports Google.Apis.Auth.OAuth2
-Imports Google.Apis.Auth
-Imports Google.Apis.Services
-Imports Google.Apis.Sheets.v4
-Imports System.IO
-
-Public Class form_Main
+﻿Public Class form_Main
     Private WithEvents serialPort As New SerialPort
     Private TICKER As TimeSpan
     Private WAIT_TIME = 180
@@ -15,7 +9,7 @@ Public Class form_Main
         Dim ports As Array
         ports = SerialPort.GetPortNames
 
-        serialPort.PortName = ports(1) ' Set value to the first detected port
+        serialPort.PortName = ports(0) ' Set value to the first detected port
         serialPort.BaudRate = 9600
         serialPort.ReadTimeout = 2000
         serialPort.DtrEnable = True
@@ -34,6 +28,7 @@ Public Class form_Main
 
         gb_UserLogin.Hide()
         gb_UserInfo.Hide()
+        gb_RegistrationForm.Hide()
 
         timer_COMListener.Enabled = True
 
@@ -111,7 +106,8 @@ Public Class form_Main
     End Sub
 
     Private Sub btn_Register_Click(sender As Object, e As EventArgs) Handles btn_Register.Click
-        MsgBox("Register Feature is still work in progress.")
+        gb_UserLogin.Hide()
+        gb_RegistrationForm.Show()
     End Sub
 
     Private Sub btn_CancelLogin_Click(sender As Object, e As EventArgs) Handles btn_CancelLogin.Click
@@ -128,5 +124,23 @@ Public Class form_Main
         Else
             btn_LoginForm.Show()
         End If
+    End Sub
+
+    Private Sub btn_Logout_Click(sender As Object, e As EventArgs) Handles btn_Logout.Click
+        btn_LoginForm.Show()
+        gb_UserInfo.Hide()
+        txt_RegUername.Text = ""
+        txt_Password1.Text = ""
+        txt_Password2.Text = ""
+        txt_RegUername.Select()
+    End Sub
+
+    Private Sub btn_Submit_Click(sender As Object, e As EventArgs) Handles btn_Submit.Click
+
+    End Sub
+
+    Private Sub btn_CancelRegistration_Click(sender As Object, e As EventArgs) Handles btn_CancelRegistration.Click
+        gb_UserLogin.Show()
+        gb_RegistrationForm.Hide()
     End Sub
 End Class
