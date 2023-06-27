@@ -37,11 +37,6 @@ Public Class form_Main
         TICKER = TimeSpan.FromSeconds(WAIT_TIME)
         lbl_PCName.Text = System.Net.Dns.GetHostName
 
-        gb_UserLogin.Hide()
-        gb_UserInfo.Hide()
-        gb_RegistrationForm.Hide()
-        btn_LoginForm.Hide()
-
         dbconnection.Open()
         timer_COMListener.Enabled = True
     End Sub

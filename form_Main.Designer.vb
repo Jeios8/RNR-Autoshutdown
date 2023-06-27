@@ -44,6 +44,7 @@ Partial Class form_Main
         lbl_Username = New Label()
         btn_LoginForm = New Button()
         gb_UserInfo = New GroupBox()
+        btn_Usepoints = New Button()
         btn_Logout = New Button()
         lbl_Points = New Label()
         lbl_Level = New Label()
@@ -57,7 +58,6 @@ Partial Class form_Main
         txt_Password1 = New TextBox()
         txt_RegUsername = New TextBox()
         lbl_RegUsername = New Label()
-        btn_Usepoints = New Button()
         gb_CountdownTimer.SuspendLayout()
         CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
         gb_UserLogin.SuspendLayout()
@@ -207,6 +207,14 @@ Partial Class form_Main
         gb_UserInfo.Name = "gb_UserInfo"
         gb_UserInfo.TabStop = False
         ' 
+        ' btn_Usepoints
+        ' 
+        resources.ApplyResources(btn_Usepoints, "btn_Usepoints")
+        btn_Usepoints.BackColor = Color.SteelBlue
+        btn_Usepoints.ForeColor = SystemColors.Control
+        btn_Usepoints.Name = "btn_Usepoints"
+        btn_Usepoints.UseVisualStyleBackColor = False
+        ' 
         ' btn_Logout
         ' 
         resources.ApplyResources(btn_Logout, "btn_Logout")
@@ -292,14 +300,6 @@ Partial Class form_Main
         resources.ApplyResources(lbl_RegUsername, "lbl_RegUsername")
         lbl_RegUsername.Name = "lbl_RegUsername"
         ' 
-        ' btn_Usepoints
-        ' 
-        resources.ApplyResources(btn_Usepoints, "btn_Usepoints")
-        btn_Usepoints.BackColor = Color.SteelBlue
-        btn_Usepoints.ForeColor = SystemColors.Control
-        btn_Usepoints.Name = "btn_Usepoints"
-        btn_Usepoints.UseVisualStyleBackColor = False
-        ' 
         ' form_Main
         ' 
         AcceptButton = btn_Login
@@ -318,6 +318,7 @@ Partial Class form_Main
         Controls.Add(pb_Logo)
         Controls.Add(lbl_PCName)
         Controls.Add(lbl_Announcement)
+        DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
         MaximizeBox = False
         MinimizeBox = False
