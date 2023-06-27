@@ -46,17 +46,18 @@ Partial Class form_Main
         gb_UserInfo = New GroupBox()
         btn_Logout = New Button()
         lbl_Points = New Label()
-        lbl_Type = New Label()
+        lbl_Level = New Label()
         lbl_Name = New Label()
         gb_RegistrationForm = New GroupBox()
+        lbl_Password1 = New Label()
         txt_Password2 = New TextBox()
         lbl_Password2 = New Label()
         btn_CancelRegistration = New Button()
         btn_Submit = New Button()
         txt_Password1 = New TextBox()
-        txt_RegUername = New TextBox()
+        txt_RegUsername = New TextBox()
         lbl_RegUsername = New Label()
-        lbl_Password1 = New Label()
+        btn_Usepoints = New Button()
         gb_CountdownTimer.SuspendLayout()
         CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
         gb_UserLogin.SuspendLayout()
@@ -197,9 +198,10 @@ Partial Class form_Main
         ' 
         resources.ApplyResources(gb_UserInfo, "gb_UserInfo")
         gb_UserInfo.BackColor = Color.Transparent
+        gb_UserInfo.Controls.Add(btn_Usepoints)
         gb_UserInfo.Controls.Add(btn_Logout)
         gb_UserInfo.Controls.Add(lbl_Points)
-        gb_UserInfo.Controls.Add(lbl_Type)
+        gb_UserInfo.Controls.Add(lbl_Level)
         gb_UserInfo.Controls.Add(lbl_Name)
         gb_UserInfo.ForeColor = SystemColors.ActiveCaption
         gb_UserInfo.Name = "gb_UserInfo"
@@ -218,10 +220,10 @@ Partial Class form_Main
         resources.ApplyResources(lbl_Points, "lbl_Points")
         lbl_Points.Name = "lbl_Points"
         ' 
-        ' lbl_Type
+        ' lbl_Level
         ' 
-        resources.ApplyResources(lbl_Type, "lbl_Type")
-        lbl_Type.Name = "lbl_Type"
+        resources.ApplyResources(lbl_Level, "lbl_Level")
+        lbl_Level.Name = "lbl_Level"
         ' 
         ' lbl_Name
         ' 
@@ -238,11 +240,16 @@ Partial Class form_Main
         gb_RegistrationForm.Controls.Add(btn_CancelRegistration)
         gb_RegistrationForm.Controls.Add(btn_Submit)
         gb_RegistrationForm.Controls.Add(txt_Password1)
-        gb_RegistrationForm.Controls.Add(txt_RegUername)
+        gb_RegistrationForm.Controls.Add(txt_RegUsername)
         gb_RegistrationForm.Controls.Add(lbl_RegUsername)
         gb_RegistrationForm.ForeColor = SystemColors.ActiveCaption
         gb_RegistrationForm.Name = "gb_RegistrationForm"
         gb_RegistrationForm.TabStop = False
+        ' 
+        ' lbl_Password1
+        ' 
+        resources.ApplyResources(lbl_Password1, "lbl_Password1")
+        lbl_Password1.Name = "lbl_Password1"
         ' 
         ' txt_Password2
         ' 
@@ -275,20 +282,23 @@ Partial Class form_Main
         resources.ApplyResources(txt_Password1, "txt_Password1")
         txt_Password1.Name = "txt_Password1"
         ' 
-        ' txt_RegUername
+        ' txt_RegUsername
         ' 
-        resources.ApplyResources(txt_RegUername, "txt_RegUername")
-        txt_RegUername.Name = "txt_RegUername"
+        resources.ApplyResources(txt_RegUsername, "txt_RegUsername")
+        txt_RegUsername.Name = "txt_RegUsername"
         ' 
         ' lbl_RegUsername
         ' 
         resources.ApplyResources(lbl_RegUsername, "lbl_RegUsername")
         lbl_RegUsername.Name = "lbl_RegUsername"
         ' 
-        ' lbl_Password1
+        ' btn_Usepoints
         ' 
-        resources.ApplyResources(lbl_Password1, "lbl_Password1")
-        lbl_Password1.Name = "lbl_Password1"
+        resources.ApplyResources(btn_Usepoints, "btn_Usepoints")
+        btn_Usepoints.BackColor = Color.SteelBlue
+        btn_Usepoints.ForeColor = SystemColors.Control
+        btn_Usepoints.Name = "btn_Usepoints"
+        btn_Usepoints.UseVisualStyleBackColor = False
         ' 
         ' form_Main
         ' 
@@ -348,7 +358,7 @@ Partial Class form_Main
     Friend WithEvents btn_LoginForm As Button
     Friend WithEvents gb_UserInfo As GroupBox
     Friend WithEvents lbl_Points As Label
-    Friend WithEvents lbl_Type As Label
+    Friend WithEvents lbl_Level As Label
     Friend WithEvents lbl_Name As Label
     Friend WithEvents btn_Logout As Button
     Friend WithEvents gb_RegistrationForm As GroupBox
@@ -356,9 +366,10 @@ Partial Class form_Main
     Friend WithEvents btn_Submit As Button
     Friend WithEvents txt_Password1 As TextBox
     Friend WithEvents Button3 As Button
-    Friend WithEvents txt_RegUername As TextBox
+    Friend WithEvents txt_RegUsername As TextBox
     Friend WithEvents lbl_RegUsername As Label
     Friend WithEvents txt_Password2 As TextBox
     Friend WithEvents lbl_Password2 As Label
     Friend WithEvents lbl_Password1 As Label
+    Friend WithEvents btn_Usepoints As Button
 End Class
