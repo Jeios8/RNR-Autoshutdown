@@ -13,7 +13,6 @@ Public Class form_Main
         ports = SerialPort.GetPortNames
         serialPort.PortName = ports(0) ' Set value to the first detected port
         serialPort.BaudRate = 9600
-
         serialPort.ReadTimeout = 2000
         serialPort.DtrEnable = True
 
@@ -29,8 +28,8 @@ Public Class form_Main
         TICKER = TimeSpan.FromSeconds(WAIT_TIME)
         lbl_PCName.Text = System.Net.Dns.GetHostName
         timer_Countdown.Enabled = True
-
         timer_COMListener.Enabled = True
+        timer_Announcement.Enabled = True
     End Sub
 
     Private Sub btn_ForceShutdown_Click(sender As Object, e As EventArgs) Handles btn_ForceShutdown.Click
@@ -71,6 +70,7 @@ Public Class form_Main
                 timer_Announcement.Enabled = True
                 If Me.Visible = False Then
                     Me.Show()
+                    Me.TopMost = True
                 End If
             End If
             Me.TopMost = True

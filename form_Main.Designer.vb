@@ -60,9 +60,10 @@ Partial Class form_Main
         ' btn_ForceShutdown
         ' 
         resources.ApplyResources(btn_ForceShutdown, "btn_ForceShutdown")
-        btn_ForceShutdown.BackColor = Color.SteelBlue
+        btn_ForceShutdown.BackColor = Color.DarkRed
         btn_ForceShutdown.ForeColor = SystemColors.Control
         btn_ForceShutdown.Name = "btn_ForceShutdown"
+        btn_ForceShutdown.TabStop = False
         btn_ForceShutdown.UseVisualStyleBackColor = False
         ' 
         ' timer_COMListener

@@ -144,6 +144,9 @@
   <data name="gb_CountdownTimer.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
   </data>
+  <data name="gb_CountdownTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1708, 923</value>
+  </data>
   <data name="gb_CountdownTimer.Text" xml:space="preserve">
     <value>PC will shutdown in...</value>
   </data>
@@ -154,7 +157,7 @@
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>728, 509</value>
+    <value>1708, 1029</value>
   </data>
   <data name="btn_ForceShutdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 39</value>
@@ -163,19 +166,19 @@
     <value>4</value>
   </data>
   <data name="btn_ForceShutdown.Text" xml:space="preserve">
-    <value>FORCE SHUTDOWN</value>
+    <value>SHUTDOWN PC</value>
   </data>
   <data name="lbl_Announcement.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="lbl_Announcement.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 48pt, style=Bold</value>
+    <value>Segoe UI, 60pt, style=Bold</value>
   </data>
   <data name="lbl_Announcement.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 167</value>
   </data>
   <data name="lbl_Announcement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>916, 152</value>
+    <value>1896, 672</value>
   </data>
   <data name="lbl_Announcement.Text" xml:space="preserve">
     <value>INSERT COIN TO CONTINUE</value>
@@ -193,7 +196,7 @@
     <value>12, 0</value>
   </data>
   <data name="lbl_PCName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>916, 144</value>
+    <value>1896, 144</value>
   </data>
   <data name="lbl_PCName.Text" xml:space="preserve">
     <value>PC NAME</value>
@@ -223,7 +226,7 @@
     <value>SimSun, 9.75pt, style=Bold, Underline</value>
   </data>
   <data name="lbl_Watermark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 518</value>
+    <value>12, 1038</value>
   </data>
   <data name="lbl_Watermark.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 15</value>
@@ -241,7 +244,7 @@
     <value>NoControl</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 533</value>
+    <value>12, 1053</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 18</value>
@@ -256,7 +259,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>940, 560</value>
+    <value>1920, 1080</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -118,909 +118,909 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gb_UserInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="btn_Login.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;gp_UserLogin.Type" xml:space="preserve">
+  <data name="&gt;&gt;gp_.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbl_Password.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lbl_RegPassConfirm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Announcement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer_Countdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Points.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txt_Password1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 55</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegPassword.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Type.Name" xml:space="preserve">
+    <value>lbl_Type</value>
+  </data>
+  <data name="&gt;&gt;lbl_Username.Parent" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="&gt;&gt;btn_ForceShutdown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_Logo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pb_Logo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_Register.Parent" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="&gt;&gt;btn_Login.Parent" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password2.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelLogin.Parent" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="&gt;&gt;gb_UserLogin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;timer_Countdown.Name" xml:space="preserve">
+    <value>timer_Countdown</value>
+  </data>
+  <data name="&gt;&gt;pb_Logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
+    <value>TextBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Name" xml:space="preserve">
+    <value>TextBox3</value>
+  </data>
+  <data name="lbl_Watermark.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="btn_CancelLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 154</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginMenu.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_LoginForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>868, 12</value>
+  </data>
+  <data name="gp_.Location" type="System.Drawing.Point, System.Drawing">
+    <value>366, 402</value>
+  </data>
+  <data name="&gt;&gt;btn_Register.Name" xml:space="preserve">
+    <value>btn_Register</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_RegistrationForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 360</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUsername.Name" xml:space="preserve">
+    <value>txt_RegUsername</value>
+  </data>
+  <data name="&gt;&gt;btn_Submit.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn_Register.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 123</value>
+  </data>
+  <data name="btn_CancelRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pb_Logo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password2.Name" xml:space="preserve">
+    <value>lbl_Password2</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 348</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUername.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;timer_Announcement.Name" xml:space="preserve">
+    <value>timer_Announcement</value>
+  </data>
+  <data name="&gt;&gt;btn_Login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_PCName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btn_Submit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 117</value>
+  </data>
+  <data name="btn_Usepoints.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txt_Password1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Usepoints.Parent" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="lbl_Password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 63</value>
+  </data>
+  <data name="lbl_Watermark.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password.Name" xml:space="preserve">
+    <value>lbl_Password</value>
+  </data>
+  <data name="&gt;&gt;lbl_PCName.Name" xml:space="preserve">
+    <value>lbl_PCName</value>
+  </data>
+  <data name="&gt;&gt;gb_CountdownTimer.Name" xml:space="preserve">
+    <value>gb_CountdownTimer</value>
+  </data>
+  <data name="&gt;&gt;lbl_Name.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbl_Watermark.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password1.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="lbl_Username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_Password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 60</value>
+  </data>
+  <data name="gb_UserLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 358</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gp_.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;timer_COMListener.Name" xml:space="preserve">
+    <value>timer_COMListener</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegPassConfirm.Name" xml:space="preserve">
+    <value>lbl_RegPassConfirm</value>
+  </data>
+  <data name="txt_Password.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_LoginMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>878, 12</value>
+  </data>
+  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 27</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_Password2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_RegPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 71</value>
+  </data>
+  <data name="gb_CountdownTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 403</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level.Parent" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="&gt;&gt;lbl_Username.Name" xml:space="preserve">
+    <value>lbl_Username</value>
+  </data>
+  <data name="btn_LoginForm.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_PCName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Login.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Timer.Parent" xml:space="preserve">
+    <value>gb_CountdownTimer</value>
+  </data>
+  <data name="&gt;&gt;gp_CountdownTimer.Name" xml:space="preserve">
+    <value>gp_CountdownTimer</value>
+  </data>
+  <data name="lbl_RegPassword.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="&gt;&gt;gp_CountdownTimer.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
-    <value>GroupBox1</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUsername.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btn_Submit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="TextBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btn_Logout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 139</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUername.Name" xml:space="preserve">
-    <value>txt_RegUername</value>
-  </data>
-  <data name="&gt;&gt;lbl_Points.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;gb_CountdownTimer.Name" xml:space="preserve">
-    <value>gb_CountdownTimer</value>
-  </data>
-  <data name="txt_Password1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txt_Password1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;gp_CountdownTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="btn_Logout.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="btn_CancelLogin.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password1.Name" xml:space="preserve">
-    <value>lbl_Password1</value>
-  </data>
-  <data name="&gt;&gt;btn_ForceShutdown.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txt_Password.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 60</value>
-  </data>
-  <data name="&gt;&gt;TextBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;txt_Password2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txt_RegUsername.Name" xml:space="preserve">
-    <value>txt_RegUsername</value>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
   </data>
-  <data name="&gt;&gt;TextBox3.Parent" xml:space="preserve">
-    <value>GroupBox1</value>
-  </data>
-  <data name="&gt;&gt;txt_Password2.Name" xml:space="preserve">
-    <value>txt_Password2</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;gb_CountdownTimer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUsername.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;txt_Password1.Name" xml:space="preserve">
-    <value>txt_Password1</value>
-  </data>
-  <data name="gp_.Location" type="System.Drawing.Point, System.Drawing">
-    <value>366, 402</value>
-  </data>
-  <data name="btn_ForceShutdown.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_Login.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TextBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_Level.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;timer_Announcement.Name" xml:space="preserve">
-    <value>timer_Announcement</value>
-  </data>
-  <data name="&gt;&gt;gb_RegistrationForm.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_Username.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TextBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 112</value>
-  </data>
-  <data name="&gt;&gt;gb_UserLogin.Name" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="lbl_Username.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;gp_.Name" xml:space="preserve">
-    <value>gp_</value>
-  </data>
-  <data name="gb_CountdownTimer.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lbl_Password2.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;btn_Submit.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="gb_UserInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>728, 297</value>
-  </data>
-  <data name="btn_Usepoints.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 106</value>
   </data>
   <data name="btn_Login.Location" type="System.Drawing.Point, System.Drawing">
     <value>878, 12</value>
   </data>
-  <data name="&gt;&gt;btn_CancelRegistration.Name" xml:space="preserve">
-    <value>btn_CancelRegistration</value>
+  <data name="lbl_Type.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="lbl_Password.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 63</value>
+  <data name="&gt;&gt;gb_CountdownTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gb_CountdownTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>728, 403</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
   </data>
-  <data name="lbl_Username.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 30</value>
+  <data name="btn_Usepoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 106</value>
   </data>
-  <data name="&gt;&gt;btn_LoginForm.Name" xml:space="preserve">
-    <value>btn_LoginForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_PCName.Name" xml:space="preserve">
-    <value>lbl_PCName</value>
-  </data>
-  <data name="gp_CountdownTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;btn_ForceShutdown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_Announcement.Name" xml:space="preserve">
-    <value>lbl_Announcement</value>
-  </data>
-  <data name="&gt;&gt;btn_Login.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txt_RegUername.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn_CancelLogin.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="gb_RegistrationForm.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;gp_.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassConfirm.Name" xml:space="preserve">
-    <value>lbl_RegPassConfirm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Name.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lbl_RegPassConfirm.TabIndex" type="System.Int32, mscorlib">
+  <data name="gp_UserLogin.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="&gt;&gt;Button2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btn_Login.Name" xml:space="preserve">
-    <value>btn_Login</value>
-  </data>
-  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
-    <value>TextBox1</value>
-  </data>
-  <data name="&gt;&gt;gb_RegistrationForm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pb_Logo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 448</value>
-  </data>
-  <data name="txt_Password.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_Name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="&gt;&gt;timer_COMListener.Name" xml:space="preserve">
-    <value>timer_COMListener</value>
-  </data>
-  <data name="&gt;&gt;pb_Logo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_RegUsername.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_Level.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_Password2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gb_UserLogin.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btn_Register.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gp_.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl_Watermark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="&gt;&gt;pb_Logo.Name" xml:space="preserve">
-    <value>pb_Logo</value>
-  </data>
-  <data name="gp_.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;gb_RegistrationForm.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_Username.Parent" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;lbl_Name.Name" xml:space="preserve">
-    <value>lbl_Name</value>
-  </data>
-  <data name="&gt;&gt;timer_Announcement.Type" xml:space="preserve">
+  <data name="&gt;&gt;timer_COMListener.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_Username.Parent" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="lbl_Points.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lbl_PCName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;lbl_Announcement.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gp_UserLogin.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btn_CancelRegistration.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
-    <value>Label1</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginForm.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TextBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_CountdownTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_Level.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 44</value>
-  </data>
-  <data name="&gt;&gt;txt_Password2.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Timer.Parent" xml:space="preserve">
-    <value>gb_CountdownTimer</value>
-  </data>
-  <data name="&gt;&gt;gb_CountdownTimer.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;gb_RegistrationForm.Name" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;btn_ForceShutdown.Name" xml:space="preserve">
-    <value>btn_ForceShutdown</value>
-  </data>
-  <data name="&gt;&gt;lbl_Watermark.Name" xml:space="preserve">
-    <value>lbl_Watermark</value>
-  </data>
-  <data name="lbl_Timer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lbl_Timer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 18</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUername.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;lbl_Timer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl_Password1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
   </data>
   <data name="lbl_Name.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 348</value>
-  </data>
-  <data name="lbl_Announcement.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;gb_UserLogin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginForm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="pb_Logo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lbl_Name.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_UserInfo.Name" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="lbl_Password1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 57</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginForm.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txt_Password.Parent" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
-    <value>Button1</value>
-  </data>
-  <data name="&gt;&gt;txt_Password2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="gp_.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;TextBox2.Name" xml:space="preserve">
-    <value>TextBox2</value>
-  </data>
-  <data name="&gt;&gt;btn_CancelRegistration.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_Logout.Parent" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUername.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_UserLogin.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lbl_PCName.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbl_Timer.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 27</value>
-  </data>
-  <data name="gb_RegistrationForm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 360</value>
-  </data>
-  <data name="&gt;&gt;btn_CancelRegistration.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="gb_UserInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>form_Main</value>
-  </data>
-  <data name="&gt;&gt;lbl_Type.Name" xml:space="preserve">
-    <value>lbl_Type</value>
-  </data>
-  <data name="&gt;&gt;gp_UserLogin.Name" xml:space="preserve">
-    <value>gp_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegUsername.Name" xml:space="preserve">
-    <value>lbl_RegUsername</value>
-  </data>
-  <data name="&gt;&gt;btn_ForceShutdown.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;gp_UserLogin.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btn_Register.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 123</value>
-  </data>
-  <data name="lbl_Type.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lbl_RegPassConfirm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 108</value>
-  </data>
-  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
-    <value>GroupBox1</value>
-  </data>
-  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="&gt;&gt;gb_UserInfo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btn_LoginForm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>868, 12</value>
-  </data>
-  <data name="&gt;&gt;btn_Usepoints.Parent" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="&gt;&gt;btn_CancelLogin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUername.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txt_Password.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pb_Logo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btn_CancelRegistration.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 148</value>
-  </data>
-  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 343</value>
-  </data>
-  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="&gt;&gt;lbl_Level.Name" xml:space="preserve">
-    <value>lbl_Level</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassConfirm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gp_CountdownTimer.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lbl_Watermark.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_Logout.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginMenu.Parent" xml:space="preserve">
-    <value>gp_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;lbl_PCName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="gb_UserLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 358</value>
-  </data>
-  <data name="lbl_Password2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 89</value>
-  </data>
-  <data name="&gt;&gt;btn_Usepoints.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gb_UserLogin.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;gp_.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_CancelLogin.Parent" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="lbl_Level.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 60</value>
-  </data>
-  <data name="&gt;&gt;TextBox2.Parent" xml:space="preserve">
-    <value>gp_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassConfirm.Parent" xml:space="preserve">
-    <value>GroupBox1</value>
-  </data>
-  <data name="&gt;&gt;txt_RegUsername.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_Announcement.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gp_CountdownTimer.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;gp_CountdownTimer.Name" xml:space="preserve">
-    <value>gp_CountdownTimer</value>
-  </data>
-  <data name="&gt;&gt;lbl_Username.Name" xml:space="preserve">
-    <value>lbl_Username</value>
-  </data>
-  <data name="&gt;&gt;txt_Username.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txt_Password1.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Type.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegUsername.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Name.Parent" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="lbl_Type.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 44</value>
-  </data>
-  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
-    <value>Panel1</value>
-  </data>
-  <data name="&gt;&gt;btn_Submit.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password2.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginMenu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txt_Password1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_Logout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gp_UserLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 402</value>
-  </data>
-  <data name="&gt;&gt;txt_Password.Name" xml:space="preserve">
-    <value>txt_Password</value>
-  </data>
-  <data name="&gt;&gt;pb_Logo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
-    <value>GroupBox1</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password1.Parent" xml:space="preserve">
-    <value>gb_RegistrationForm</value>
-  </data>
-  <data name="btn_Usepoints.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lbl_Watermark.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;btn_Logout.Name" xml:space="preserve">
-    <value>btn_Logout</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassword.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;gb_UserInfo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btn_Register.Parent" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
-    <value>GroupBox1</value>
-  </data>
-  <data name="&gt;&gt;btn_LoginMenu.Name" xml:space="preserve">
-    <value>btn_LoginMenu</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password2.Name" xml:space="preserve">
-    <value>lbl_Password2</value>
-  </data>
-  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 160</value>
-  </data>
-  <data name="&gt;&gt;btn_Register.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="txt_Username.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 27</value>
-  </data>
-  <data name="&gt;&gt;gb_UserInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gp_CountdownTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>728, 403</value>
-  </data>
-  <data name="txt_RegUsername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 24</value>
-  </data>
-  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_RegPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 71</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassword.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txt_Password1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 55</value>
   </data>
   <data name="&gt;&gt;lbl_RegPassword.Parent" xml:space="preserve">
     <value>GroupBox1</value>
   </data>
-  <data name="&gt;&gt;btn_Register.Name" xml:space="preserve">
-    <value>btn_Register</value>
+  <data name="&gt;&gt;gb_UserLogin.Name" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="txt_RegUername.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gp_UserLogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Points.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pb_Logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 448</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegPassConfirm.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
   </data>
   <data name="btn_Register.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;timer_COMListener.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TextBox3.Name" xml:space="preserve">
-    <value>TextBox3</value>
-  </data>
-  <data name="&gt;&gt;btn_Usepoints.Name" xml:space="preserve">
-    <value>btn_Usepoints</value>
-  </data>
-  <data name="btn_LoginMenu.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;txt_Password1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 154</value>
+  <data name="&gt;&gt;TextBox3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
   </data>
-  <data name="&gt;&gt;lbl_PCName.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btn_CancelRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 148</value>
   </data>
-  <data name="lbl_RegPassword.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbl_Password1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lbl_Username.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_ForceShutdown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txt_Username.Name" xml:space="preserve">
+    <value>txt_Username</value>
+  </data>
+  <data name="&gt;&gt;gb_RegistrationForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gp_CountdownTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_Logout.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+  <data name="btn_Logout.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Type.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUername.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
   </data>
   <data name="txt_Password2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Timer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_ForceShutdown.Name" xml:space="preserve">
+    <value>btn_ForceShutdown</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelRegistration.Name" xml:space="preserve">
+    <value>btn_CancelRegistration</value>
+  </data>
+  <data name="&gt;&gt;lbl_Announcement.Name" xml:space="preserve">
+    <value>lbl_Announcement</value>
+  </data>
+  <data name="&gt;&gt;gb_UserInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Name" xml:space="preserve">
+    <value>TextBox2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Timer.Name" xml:space="preserve">
+    <value>lbl_Timer</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;gp_UserLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_PCName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gp_CountdownTimer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 403</value>
+  </data>
+  <data name="TextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_LoginMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 343</value>
+  </data>
+  <data name="&gt;&gt;gb_RegistrationForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_PCName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 154</value>
+  </data>
+  <data name="&gt;&gt;gb_UserInfo.Name" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUername.Name" xml:space="preserve">
+    <value>txt_RegUername</value>
+  </data>
+  <data name="btn_CancelLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_Submit.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_InsertCoin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginMenu.Name" xml:space="preserve">
+    <value>btn_LoginMenu</value>
+  </data>
   <data name="&gt;&gt;btn_CancelLogin.Name" xml:space="preserve">
     <value>btn_CancelLogin</value>
   </data>
-  <data name="&gt;&gt;lbl_Username.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lbl_Announcement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 193</value>
+  <data name="&gt;&gt;btn_Login.Name" xml:space="preserve">
+    <value>btn_Login</value>
   </data>
   <data name="&gt;&gt;lbl_Timer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbl_RegUsername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 27</value>
+  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_Password.Parent" xml:space="preserve">
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;txt_Username.Parent" xml:space="preserve">
     <value>gb_UserLogin</value>
   </data>
-  <data name="&gt;&gt;TextBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="TextBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbl_Points.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_Username.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password1.Name" xml:space="preserve">
+    <value>lbl_Password1</value>
+  </data>
+  <data name="lbl_Level.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Announcement.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_PCName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gb_UserInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gp_UserLogin.Name" xml:space="preserve">
+    <value>gp_UserLogin</value>
+  </data>
+  <data name="gp_CountdownTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_Password2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbl_Watermark.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_Watermark.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="&gt;&gt;lbl_Announcement.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gp_.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelRegistration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_RegUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gb_RegistrationForm.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelRegistration.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt_Password1.Name" xml:space="preserve">
+    <value>txt_Password1</value>
+  </data>
+  <data name="txt_Username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 27</value>
+  </data>
+  <data name="&gt;&gt;lbl_Type.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Submit.Name" xml:space="preserve">
+    <value>btn_Submit</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_RegPassConfirm.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txt_RegUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 24</value>
+  </data>
+  <data name="&gt;&gt;btn_Usepoints.Name" xml:space="preserve">
+    <value>btn_Usepoints</value>
+  </data>
+  <data name="&gt;&gt;txt_Password2.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="&gt;&gt;txt_Password.Parent" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="lbl_Password.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="txt_Username.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="gb_CountdownTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="btn_LoginForm.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;txt_Password.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_Login.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="txt_Password2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 86</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegUsername.Type" xml:space="preserve">
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lbl_Type.Parent" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="&gt;&gt;lbl_Points.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_Login.Parent" xml:space="preserve">
-    <value>gb_UserLogin</value>
-  </data>
-  <data name="&gt;&gt;timer_Countdown.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 449</value>
-  </data>
-  <data name="&gt;&gt;lbl_Watermark.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassConfirm.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_PCName.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;timer_Countdown.Name" xml:space="preserve">
-    <value>timer_Countdown</value>
-  </data>
-  <data name="&gt;&gt;txt_Username.Name" xml:space="preserve">
-    <value>txt_Username</value>
-  </data>
-  <data name="&gt;&gt;btn_InsertCoin.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegPassword.Name" xml:space="preserve">
-    <value>lbl_RegPassword</value>
-  </data>
-  <data name="&gt;&gt;lbl_Password.Name" xml:space="preserve">
-    <value>lbl_Password</value>
-  </data>
-  <data name="btn_CancelRegistration.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="&gt;&gt;txt_Username.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;btn_Usepoints.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;txt_Password.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
-    <value>Button2</value>
+  <data name="&gt;&gt;lbl_Name.Name" xml:space="preserve">
+    <value>lbl_Name</value>
   </data>
-  <data name="&gt;&gt;lbl_Points.Name" xml:space="preserve">
-    <value>lbl_Points</value>
+  <data name="&gt;&gt;btn_Logout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_Timer.Name" xml:space="preserve">
-    <value>lbl_Timer</value>
+  <data name="&gt;&gt;txt_Username.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_Password2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txt_Password.Name" xml:space="preserve">
+    <value>txt_Password</value>
   </data>
-  <data name="&gt;&gt;lbl_Level.Parent" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="btn_LoginMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>878, 12</value>
-  </data>
-  <data name="&gt;&gt;btn_Submit.Name" xml:space="preserve">
-    <value>btn_Submit</value>
-  </data>
-  <data name="&gt;&gt;lbl_Watermark.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="txt_RegUsername.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txt_RegUername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 24</value>
-  </data>
-  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lbl_Points.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 71</value>
-  </data>
-  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="gp_UserLogin.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;lbl_RegUsername.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lbl_Password2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lbl_Watermark.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lbl_Points.Parent" xml:space="preserve">
-    <value>gb_UserInfo</value>
-  </data>
-  <data name="&gt;&gt;lbl_Type.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;gb_CountdownTimer.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;btn_Submit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btn_Submit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 117</value>
+  <data name="&gt;&gt;btn_Logout.Name" xml:space="preserve">
+    <value>btn_Logout</value>
+  </data>
+  <data name="&gt;&gt;lbl_Type.Parent" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gb_UserInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="gb_UserInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 297</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelLogin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegPassword.Name" xml:space="preserve">
+    <value>lbl_RegPassword</value>
+  </data>
+  <data name="lbl_Points.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 71</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginMenu.Parent" xml:space="preserve">
+    <value>gp_UserLogin</value>
+  </data>
+  <data name="lbl_Timer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 18</value>
+  </data>
+  <data name="gb_UserInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txt_Password1.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="btn_Submit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_RegUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gp_CountdownTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_ForceShutdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegUsername.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbl_Points.Parent" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUsername.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="&gt;&gt;gp_.Name" xml:space="preserve">
+    <value>gp_</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegUsername.Name" xml:space="preserve">
+    <value>lbl_RegUsername</value>
+  </data>
+  <data name="&gt;&gt;txt_Password.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Usepoints.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUsername.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_ForceShutdown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gp_.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;txt_RegUername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_RegPassConfirm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 108</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Watermark.Name" xml:space="preserve">
+    <value>lbl_Watermark</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Watermark.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.Parent" xml:space="preserve">
+    <value>gp_UserLogin</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level.Name" xml:space="preserve">
+    <value>lbl_Level</value>
+  </data>
+  <data name="&gt;&gt;gb_RegistrationForm.Name" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginForm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gb_CountdownTimer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;btn_Logout.Parent" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="lbl_Level.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Register.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_RegistrationForm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gp_UserLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 402</value>
+  </data>
+  <data name="&gt;&gt;lbl_Username.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_Logout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 139</value>
+  </data>
+  <data name="txt_Password1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Level.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegUsername.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="lbl_Password2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 89</value>
+  </data>
+  <data name="&gt;&gt;gb_CountdownTimer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password.Parent" xml:space="preserve">
+    <value>gb_UserLogin</value>
+  </data>
+  <data name="&gt;&gt;TextBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pb_Logo.Name" xml:space="preserve">
+    <value>pb_Logo</value>
+  </data>
+  <data name="&gt;&gt;btn_LoginForm.Name" xml:space="preserve">
+    <value>btn_LoginForm</value>
+  </data>
+  <data name="&gt;&gt;timer_Announcement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gb_CountdownTimer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;lbl_Name.Parent" xml:space="preserve">
+    <value>gb_UserInfo</value>
+  </data>
+  <data name="&gt;&gt;btn_Usepoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt_RegUername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 24</value>
+  </data>
+  <data name="lbl_Announcement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 193</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelRegistration.Parent" xml:space="preserve">
+    <value>gb_RegistrationForm</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegPassConfirm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>form_Main</value>
+  </data>
+  <data name="lbl_Password1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btn_Register.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gp_CountdownTimer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txt_Password2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 86</value>
+  </data>
+  <data name="&gt;&gt;lbl_Points.Name" xml:space="preserve">
+    <value>lbl_Points</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txt_Password2.Name" xml:space="preserve">
+    <value>txt_Password2</value>
+  </data>
+  <data name="TextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 60</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 160</value>
   </data>
   <data name="&gt;&gt;lbl_Announcement.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="btn_CancelLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 154</value>
+  <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>732, 449</value>
   </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gb_UserInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_RegUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gb_UserLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_CancelLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gp_.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TextBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TextBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 112</value>
+  </data>
+  <data name="gb_UserLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lbl_Type.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 44</value>
+  </data>
+  <data name="&gt;&gt;gp_UserLogin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gb_UserLogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lbl_RegUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbl_Password2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="timer_Announcement.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>322, 17</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
     <value>en</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
   </metadata>
   <metadata name="timer_Countdown.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
