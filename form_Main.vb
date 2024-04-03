@@ -6,12 +6,18 @@ Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Public Class form_Main
     Private WithEvents serialPort As New SerialPort
     Private TICKER As TimeSpan
+    Private VOUCHER_TICKER As TimeSpan
+    Private VOUCHER_TIME = 0
     Private WAIT_TIME = 180
+    Private ADMIN_ACCOUNT = False
 
     Private Sub Form_Main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Width = Screen.PrimaryScreen.Bounds.Width
+        Me.Height = Screen.PrimaryScreen.Bounds.Height
+
         Dim ports As Array
         ports = SerialPort.GetPortNames
-        serialPort.PortName = ports(0) ' Set value to the first detected port
+        serialPort.PortName = ports(1) ' Set value to the first detected port
         serialPort.BaudRate = 9600
         serialPort.ReadTimeout = 2000
         serialPort.DtrEnable = True
@@ -74,6 +80,7 @@ Public Class form_Main
                 End If
             End If
             Me.TopMost = True
+            Me.WindowState = FormWindowState.Maximized
         Else ' DSR and DTR signals are ready
             ' Check if the countdown timer is already enabled
             If timer_Countdown.Enabled = True Then
@@ -97,7 +104,52 @@ Public Class form_Main
 
     Private Sub Form1_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         If (e.CloseReason = CloseReason.UserClosing) Then
-            e.Cancel = True
+            e.Cancel = False
+        End If
+    End Sub
+
+    Private Sub btn_Login_Click(sender As Object, e As EventArgs) Handles btn_Login.Click
+        If (gb_FormOption.Visible = True) Then
+            gb_FormOption.Visible = False
+            btn_Login.Text = "Show Form"
+        Else
+            gb_FormOption.Visible = True
+            btn_Login.Text = "Hide Form"
+        End If
+    End Sub
+
+    Private Sub btn_UseVoucher_Click(sender As Object, e As EventArgs) Handles btn_UseVoucher.Click
+        If txt_Voucher.Text = "040810174817302243519278" Then
+            ADMIN_ACCOUNT = True
+            VOUCHER_TIME = 1800
+            VOUCHER_TICKER = TimeSpan.FromSeconds(VOUCHER_TIME)
+            timer_COMListener.Enabled = False
+            timer_Countdown.Enabled = False
+            timer_Announcement.Enabled = False
+            timer_Voucher.Enabled = True
+            If Me.Visible = True Then
+                Me.Hide()
+            End If
+        Else
+            txt_Voucher.Text = ""
+            MsgBox("Voucher does not exist, please try again.", 0, "Voucher Error")
+        End If
+    End Sub
+
+    Private Sub timer_Voucher_Tick(sender As Object, e As EventArgs) Handles timer_Voucher.Tick
+        VOUCHER_TICKER -= TimeSpan.FromSeconds(1)
+
+        If VOUCHER_TICKER <= TimeSpan.Zero Then
+            ' Disable timers and close the serial port
+
+            timer_COMListener.Enabled = True
+            timer_Countdown.Enabled = True
+            timer_Announcement.Enabled = True
+            timer_Voucher.Enabled = False
+
+            If Me.Visible = False Then
+                Me.Show()
+            End If
         End If
     End Sub
 End Class

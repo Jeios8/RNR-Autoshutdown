@@ -35,8 +35,14 @@ Partial Class form_Main
         pb_Logo = New PictureBox()
         lbl_Watermark = New Label()
         Label1 = New Label()
+        btn_Login = New Button()
+        gb_FormOption = New GroupBox()
+        btn_UseVoucher = New Button()
+        txt_Voucher = New TextBox()
+        timer_Voucher = New Timer(components)
         gb_CountdownTimer.SuspendLayout()
         CType(pb_Logo, ComponentModel.ISupportInitialize).BeginInit()
+        gb_FormOption.SuspendLayout()
         SuspendLayout()
         ' 
         ' timer_Countdown
@@ -109,12 +115,46 @@ Partial Class form_Main
         Label1.ForeColor = SystemColors.ActiveCaption
         Label1.Name = "Label1"
         ' 
+        ' btn_Login
+        ' 
+        resources.ApplyResources(btn_Login, "btn_Login")
+        btn_Login.Name = "btn_Login"
+        btn_Login.UseVisualStyleBackColor = True
+        ' 
+        ' gb_FormOption
+        ' 
+        resources.ApplyResources(gb_FormOption, "gb_FormOption")
+        gb_FormOption.BackColor = Color.Transparent
+        gb_FormOption.Controls.Add(btn_UseVoucher)
+        gb_FormOption.Controls.Add(txt_Voucher)
+        gb_FormOption.ForeColor = SystemColors.ActiveCaption
+        gb_FormOption.Name = "gb_FormOption"
+        gb_FormOption.TabStop = False
+        ' 
+        ' btn_UseVoucher
+        ' 
+        resources.ApplyResources(btn_UseVoucher, "btn_UseVoucher")
+        btn_UseVoucher.ForeColor = SystemColors.ActiveCaptionText
+        btn_UseVoucher.Name = "btn_UseVoucher"
+        btn_UseVoucher.UseVisualStyleBackColor = True
+        ' 
+        ' txt_Voucher
+        ' 
+        resources.ApplyResources(txt_Voucher, "txt_Voucher")
+        txt_Voucher.Name = "txt_Voucher"
+        ' 
+        ' timer_Voucher
+        ' 
+        timer_Voucher.Interval = 1000
+        ' 
         ' form_Main
         ' 
         resources.ApplyResources(Me, "$this")
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.bg
         ControlBox = False
+        Controls.Add(gb_FormOption)
+        Controls.Add(btn_Login)
         Controls.Add(Label1)
         Controls.Add(lbl_Watermark)
         Controls.Add(btn_ForceShutdown)
@@ -132,6 +172,8 @@ Partial Class form_Main
         WindowState = FormWindowState.Maximized
         gb_CountdownTimer.ResumeLayout(False)
         CType(pb_Logo, ComponentModel.ISupportInitialize).EndInit()
+        gb_FormOption.ResumeLayout(False)
+        gb_FormOption.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -148,4 +190,9 @@ Partial Class form_Main
     Friend WithEvents lbl_Watermark As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents btn_Login As Button
+    Friend WithEvents gb_FormOption As GroupBox
+    Friend WithEvents btn_UseVoucher As Button
+    Friend WithEvents txt_Voucher As TextBox
+    Friend WithEvents timer_Voucher As Timer
 End Class

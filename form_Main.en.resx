@@ -145,7 +145,7 @@
     <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="gb_CountdownTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1708, 923</value>
+    <value>1068, 566</value>
   </data>
   <data name="gb_CountdownTimer.Text" xml:space="preserve">
     <value>PC will shutdown in...</value>
@@ -157,7 +157,7 @@
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
   <data name="btn_ForceShutdown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1708, 1029</value>
+    <value>1068, 673</value>
   </data>
   <data name="btn_ForceShutdown.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 39</value>
@@ -175,10 +175,10 @@
     <value>Segoe UI, 60pt, style=Bold</value>
   </data>
   <data name="lbl_Announcement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 167</value>
+    <value>12, 354</value>
   </data>
   <data name="lbl_Announcement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1896, 672</value>
+    <value>1256, 101</value>
   </data>
   <data name="lbl_Announcement.Text" xml:space="preserve">
     <value>INSERT COIN TO CONTINUE</value>
@@ -196,7 +196,7 @@
     <value>12, 0</value>
   </data>
   <data name="lbl_PCName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1896, 144</value>
+    <value>1256, 144</value>
   </data>
   <data name="lbl_PCName.Text" xml:space="preserve">
     <value>PC NAME</value>
@@ -226,7 +226,7 @@
     <value>SimSun, 9.75pt, style=Bold, Underline</value>
   </data>
   <data name="lbl_Watermark.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 1038</value>
+    <value>12, 679</value>
   </data>
   <data name="lbl_Watermark.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 15</value>
@@ -244,7 +244,7 @@
     <value>NoControl</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 1053</value>
+    <value>12, 694</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 18</value>
@@ -255,11 +255,59 @@
   <data name="Label1.Text" xml:space="preserve">
     <value>Visit: Facebook.com/RNRPrintServe</value>
   </data>
+  <data name="btn_Login.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btn_Login.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1161, 12</value>
+  </data>
+  <data name="btn_Login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="btn_Login.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn_Login.Text" xml:space="preserve">
+    <value>Show Form</value>
+  </data>
+  <data name="gb_FormOption.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="gb_FormOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1100, 41</value>
+  </data>
+  <data name="gb_FormOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 82</value>
+  </data>
+  <data name="gb_FormOption.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="gb_FormOption.Text" xml:space="preserve">
+    <value>Enter Voucher</value>
+  </data>
+  <data name="gb_FormOption.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btn_UseVoucher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="btn_UseVoucher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 23</value>
+  </data>
+  <data name="btn_UseVoucher.Text" xml:space="preserve">
+    <value>Use Voucher</value>
+  </data>
+  <data name="txt_Voucher.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 22</value>
+  </data>
+  <data name="txt_Voucher.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 23</value>
+  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1920, 1080</value>
+    <value>1280, 720</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
